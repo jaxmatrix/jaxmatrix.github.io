@@ -1278,7 +1278,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 26, vars: 0, consts: [[1, "bg-light", "row", "d-xl-flex", "flex-xl-row", "justify-content-center", "collage-container", "m-0"], ["src", "../../assets/cover.png", "alt", "", 1, "col-12", "m-0", "p-0"], [1, "d-xl-flex", "flex-xl-row", "justify-content-center", "bg-light", "pt-3"], [1, "jumbotron", "border-0", "bg-light", "text-dark", "col-xl-8", "border", "border-secondary", "mb-0"], [1, ""], [1, "lead"], [1, "my-4"], ["routerLink", "/about", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3"], ["routerLink", "/competitions", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3"], ["routerLink", "/projects", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3"], [1, "bg-light", "d-xl-flex", "flex-xl-row", "justify-content-center", "m-0"], [1, "bg-none", "col-xl-8", "p-0", "m-0", "d-xl-flex", "flex-xl-row", "justify-content-center"], [1, "col-12", "p-0", "m-0"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 26, vars: 0, consts: [[1, "bg-light", "row", "d-xl-flex", "flex-xl-row", "justify-content-center", "collage-container", "m-0"], ["src", "../../assets/cover.png", "alt", "", 1, "col-12", "m-0", "p-0"], [1, "d-xl-flex", "flex-xl-row", "justify-content-center", "bg-light", "pt-3"], [1, "jumbotron", "border-0", "bg-light", "text-dark", "col-xl-8", "border", "border-secondary", "mb-0"], [1, ""], [1, "lead"], [1, "my-4"], ["routerLink", "/about", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3", "mb-3"], ["routerLink", "/competitions", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3", "mb-3"], ["routerLink", "/projects", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3", "mb-3"], [1, "bg-light", "d-xl-flex", "flex-xl-row", "justify-content-center", "m-0"], [1, "bg-none", "col-xl-8", "p-0", "m-0", "d-xl-flex", "flex-xl-row", "justify-content-center"], [1, "col-12", "p-0", "m-0"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 1);
@@ -1460,7 +1460,9 @@ class NavbarComponent {
     }
     toTop() {
         window.scrollTo(0, 0);
-        this.navbarButton.toggle();
+        if (window.innerWidth < 767) {
+            this.navbarButton.toggle();
+        }
     }
 }
 NavbarComponent.ɵfac = function NavbarComponent_Factory(t) { return new (t || NavbarComponent)(); };
