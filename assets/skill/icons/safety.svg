@@ -23,7 +23,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.971837"
+     inkscape:zoom="13.036592"
      inkscape:cx="21.285991"
      inkscape:cy="28.757457"
      inkscape:document-units="mm"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,34 +56,10 @@
        id="g2119"
        transform="translate(-0.01785353,0.40671117)"
        style="fill:#5b0f0f;fill-opacity:1">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66757px;line-height:1.25;font-family:Rasa;-inkscape-font-specification:Rasa;letter-spacing:-0.912624px;word-spacing:0px;fill:#5b0f0f;fill-opacity:1;stroke-width:0.178596"
-         x="-0.0066683632"
-         y="4.2728672"
-         id="text2106"
-         transform="scale(0.78757295,1.2697237)"><tspan
-           sodipodi:role="line"
-           id="tspan2104"
-           x="-0.0066683632"
-           y="4.2728672"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Rasa;-inkscape-font-specification:Rasa;fill:#5b0f0f;fill-opacity:1;stroke-width:0.178596">AMBER</tspan><tspan
-           sodipodi:role="line"
-           x="-0.0066683632"
-           y="12.60733"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Rasa;-inkscape-font-specification:Rasa;fill:#5b0f0f;fill-opacity:1;stroke-width:0.178596"
-           id="tspan2108" /></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33994px;line-height:1.25;font-family:Rasa;-inkscape-font-specification:Rasa;letter-spacing:0px;word-spacing:0px;fill:#5b0f0f;fill-opacity:1;stroke-width:0.250177"
-         x="-0.080855384"
-         y="11.461355"
-         id="text2112"><tspan
-           sodipodi:role="line"
-           id="tspan2110"
-           x="-0.080855384"
-           y="11.461355"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Rasa;-inkscape-font-specification:Rasa;fill:#5b0f0f;fill-opacity:1;stroke-width:0.250177">MD</tspan></text>
+      <path
+         style="fill:#ff8800;fill-opacity:1;stroke:#000000;stroke-width:0.361467px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 7.8239368,0.62216297 3.7856367,4.866322 6.7199034,7.0485238 2.9187698,11.679303 9.5446123,7.1430843 5.9873804,4.8153932 Z"
+         id="path2941" />
     </g>
   </g>
 </svg>
