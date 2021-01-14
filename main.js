@@ -379,7 +379,7 @@ class SlidesComponent {
             {
                 url: 'assets/cover-slides/friends.jpg',
                 alt: 'nine two one Slide',
-                heading: 'God old friends',
+                heading: 'Good old friends',
                 section: 'It is hard to get good people in life. These are one of the precious people in my college friends.'
             },
             {
@@ -1317,7 +1317,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 26, vars: 0, consts: [[1, "bg-light", "row", "d-xl-flex", "flex-xl-row", "justify-content-center", "collage-container", "m-0"], ["src", "../../assets/cover.png", "alt", "", 1, "col-12", "m-0", "p-0"], [1, "d-xl-flex", "flex-xl-row", "justify-content-center", "bg-light", "pt-3"], [1, "jumbotron", "border-0", "bg-light", "text-dark", "col-xl-8", "border", "border-secondary", "mb-0"], [1, ""], [1, "lead"], [1, "my-4"], ["routerLink", "/about", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3", "mb-3"], ["routerLink", "/competitions", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3", "mb-3"], ["routerLink", "/projects", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3", "mb-3"], [1, "bg-light", "d-xl-flex", "flex-xl-row", "justify-content-center", "m-0"], [1, "bg-none", "col-xl-8", "p-0", "m-0", "d-xl-flex", "flex-xl-row", "justify-content-center"], [1, "col-12", "p-0", "m-0"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 30, vars: 0, consts: [[1, "bg-light", "row", "d-xl-flex", "flex-xl-row", "justify-content-center", "collage-container", "m-0"], ["src", "../../assets/cover.png", "alt", "", 1, "col-12", "m-0", "p-0"], [1, "d-xl-flex", "flex-xl-row", "justify-content-center", "bg-light", "pt-3"], [1, "jumbotron", "border-0", "bg-light", "text-dark", "col-xl-8", "border", "border-secondary", "mb-0"], [1, ""], [1, "lead"], [1, "my-4"], ["routerLink", "/about", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3", "mb-3"], ["routerLink", "/competitions", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3", "mb-3"], ["routerLink", "/projects", "role", "button", 1, "btn", "btn-primary", "btn-lg", "mr-3", "mb-3"], [1, "bg-light", "d-xl-flex", "flex-xl-row", "justify-content-center", "m-0"], [1, "bg-none", "col-xl-8", "p-0", "m-0", "d-xl-flex", "flex-xl-row", "justify-content-center"], [1, "col-12", "p-0", "m-0"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 1);
@@ -1356,7 +1356,14 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "app-blog-card", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "app-slides", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "My Little World");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "app-slides", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _blog_card_blog_card_component__WEBPACK_IMPORTED_MODULE_2__["BlogCardComponent"], _addons_slides_slides_component__WEBPACK_IMPORTED_MODULE_3__["SlidesComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hc3NldHMvY29sb3JzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0Esa0JBQUE7QUFDQTs7Ozs7Ozs7O0NBQUEiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi8qIENvbG9yIFNldHRpaW5nKi9cbi8qXG4kcHJpbWFyeTogICAgICMwRTMxODE7XG4kc2Vjb25kYXJ5OiAgICM2MTFCNDc7XG4kc3VjY2VzczogICAgICMzRUE5MjM7XG4kaW5mbzogICAgICAgICMyNDdCQTA7XG4kd2FybmluZzogICAgICNGNEEyOEM7XG4kZGFuZ2VyOiAgICAgICNCNDA0MEM7XG4kZGFyazogICAgICAgICMxNDBEMkQ7XG4kbGlnaHQ6ICAgICAgIHJnYmEoMjQ5LCA4MiwgMTE1LCAwLjIpO1xuKi9cbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
