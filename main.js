@@ -33,8 +33,8 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _data_about_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data/about-data */ "./src/app/data/about-data.ts");
+/* harmony import */ var _data_about_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../data/about-data */ "./src/app/data/about-data.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
@@ -42,213 +42,267 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function AboutComponent_div_28_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+function AboutComponent_div_31_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const skill_r6 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r6.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", skill_r6.skillName, " ");
+    const skill_r7 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r7.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", skill_r7.skillName, " ");
 } }
-function AboutComponent_div_32_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function AboutComponent_div_35_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const skill_r8 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r8.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", skill_r8.skillName, " ");
+    const skill_r9 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r9.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", skill_r9.skillName, " ");
 } }
-function AboutComponent_div_36_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function AboutComponent_div_39_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const skill_r10 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r10.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", skill_r10.skillName, " ");
+    const skill_r11 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r11.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", skill_r11.skillName, " ");
 } }
-function AboutComponent_div_40_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function AboutComponent_div_43_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const skill_r12 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r12.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", skill_r12.skillName, " ");
+    const skill_r13 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r13.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", skill_r13.skillName, " ");
 } }
-function AboutComponent_div_44_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function AboutComponent_div_47_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const skill_r14 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r14.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", skill_r14.skillName, " ");
+    const skill_r15 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", "../../assets/skill/icons/" + skill_r15.skillIcon + ".svg", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", skill_r15.skillName, " ");
 } }
-function AboutComponent_div_46_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h2", 26);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "p", 27);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function AboutComponent_div_49_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h2", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "p", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const section_r16 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", section_r16.title, " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", section_r16.content, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
+    const section_r17 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", section_r17.title, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", section_r17.content, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
+} }
+function AboutComponent_tr_63_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "tr");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "th", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "td", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "td", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const workshop_r18 = ctx.$implicit;
+    const i_r19 = ctx.index;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](i_r19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", workshop_r18.title, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", workshop_r18.date, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
 } }
 class AboutComponent {
     constructor() {
-        this.aboutSections = _data_about_data__WEBPACK_IMPORTED_MODULE_1__["AboutData"];
-        this.aboutCodingSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_1__["codingLanguageSkillData"];
-        this.aboutFrameworkSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_1__["frameworkSkillData"];
-        this.aboutComputationalSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_1__["computationalChemistryData"];
-        this.aboutProductDesginSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_1__["productDesigningData"];
-        this.aboutLabSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_1__["labSkillData"];
+        this.aboutSections = _data_about_data__WEBPACK_IMPORTED_MODULE_0__["AboutData"];
+        this.aboutCodingSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_0__["codingLanguageSkillData"];
+        this.aboutFrameworkSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_0__["frameworkSkillData"];
+        this.aboutComputationalSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_0__["computationalChemistryData"];
+        this.aboutProductDesginSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_0__["productDesigningData"];
+        this.aboutLabSkills = _data_about_data__WEBPACK_IMPORTED_MODULE_0__["labSkillData"];
+        this.aboutWorkshopData = _data_about_data__WEBPACK_IMPORTED_MODULE_0__["workshopData"];
     }
     ngOnInit() {
     }
+    toTop() {
+        window.scrollTo(0, 0);
+    }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 53, vars: 6, consts: [[1, "row", "bg-light", "text-dark"], [1, "col-xl-8", "mx-auto"], [1, "row", "p-4", "mx-auto"], [1, "col-xl", "mt-3"], ["src", "../../assets/face.jpg", 1, "circle", "rounded-circle", "mx-auto"], [1, "col-xl", "designation"], [1, "my-4"], [1, ""], [1, "row", "bg-light"], [1, "row", "col-xl-8", "mx-auto"], [1, "col-md-3", "pt-3", "d-sm-flex", "flex-sm-wrap"], [1, "col-sm-12"], [1, "p-0", "m-0", "col-md-12", "col-sm-4"], ["class", "row m-0 p-0 ", 4, "ngFor", "ngForOf"], ["class", "row m-0 p-0 col-md-12", 4, "ngFor", "ngForOf"], [1, "p-0", "m-0", "col-md-12", "col-sm-4", "flex-sm-grow-1"], [1, "col-md-9", "pl-2"], ["class", "row bg-light text-dark pt-3 pl-3", 4, "ngFor", "ngForOf"], [1, "row", "p-0", "ml-4"], ["routerLink", "/projects", 1, "badge", "badge-primary"], [1, "row", "m-0", "p-0"], [1, "col-1"], ["alt", "", 1, "skill-icon", 3, "src"], [1, "col"], [1, "row", "m-0", "p-0", "col-md-12"], [1, "row", "bg-light", "text-dark", "pt-3", "pl-3"], [1, "col-12", "p-0"], [3, "innerHTML"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " Jai Shukla ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "hr", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Final Year Undergraduate Student");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Integrated Masters in Chemistry");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Indian Institute of Technology Kharagpur");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Kharagpur, West Bengal, India");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "721302");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "h2", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " Skills ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Computer Languages");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](28, AboutComponent_div_28_Template, 5, 2, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Frameworks");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](32, AboutComponent_div_32_Template, 5, 2, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Computational Chemistry");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](36, AboutComponent_div_36_Template, 5, 2, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Product Designing");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](40, AboutComponent_div_40_Template, 5, 2, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Lab Skills");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](44, AboutComponent_div_44_Template, 5, 2, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](46, AboutComponent_div_46_Template, 4, 2, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, " For more information on projects please visit the ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Project Page");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, ". ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 70, vars: 7, consts: [[1, "row", "bg-light", "text-dark"], [1, "col-xl-8", "mx-auto"], [1, "row", "p-4", "mx-auto"], [1, "col-xl", "mt-3"], ["src", "../../assets/face.jpg", 1, "circle", "rounded-circle", "mx-auto"], [1, "col-xl", "designation"], [1, "my-4"], [1, ""], ["href", "https://drive.google.com/file/d/1RcLHsp4Uuz06JFDriXaG34up_eYfvu_g/view?usp=sharing", 1, "badge", "badge-success", "cv"], [1, "row", "bg-light"], [1, "row", "col-xl-8", "mx-auto"], [1, "col-md-3", "pt-3", "d-sm-flex", "flex-sm-wrap"], [1, "col-sm-12"], [1, "p-0", "m-0", "col-md-12", "col-sm-4"], ["class", "row m-0 p-0 ", 4, "ngFor", "ngForOf"], ["class", "row m-0 p-0 col-md-12", 4, "ngFor", "ngForOf"], [1, "p-0", "m-0", "col-md-12", "col-sm-4", "flex-sm-grow-1"], [1, "col-md-9", "pl-2"], ["class", "row bg-light text-dark pt-3 pl-3", 4, "ngFor", "ngForOf"], [1, "table"], ["scope", "col"], [4, "ngFor", "ngForOf"], [1, "row", "p-0", "ml-4"], ["routerLink", "/projects", 1, "badge", "badge-primary", 3, "click"], [1, "row", "m-0", "p-0"], [1, "col-1"], ["alt", "", 1, "skill-icon", 3, "src"], [1, "col"], [1, "row", "m-0", "p-0", "col-md-12"], [1, "row", "bg-light", "text-dark", "pt-3", "pl-3"], [1, "col-12", "p-0"], [3, "innerHTML"], ["scope", "row"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "img", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, " Jai Shukla ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "hr", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "Final Year Undergraduate Student");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, "Integrated Masters in Chemistry");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "Indian Institute of Technology Kharagpur");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "Kharagpur, West Bengal, India");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "721302");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](22, "Curriculum Vitae");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "h2", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](27, " Skills ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](30, "Computer Languages");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](31, AboutComponent_div_31_Template, 5, 2, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](33, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](34, "Frameworks");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](35, AboutComponent_div_35_Template, 5, 2, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](38, "Computational Chemistry");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](39, AboutComponent_div_39_Template, 5, 2, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](41, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](42, "Product Designing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](43, AboutComponent_div_43_Template, 5, 2, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](44, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, "Lab Skills");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](47, AboutComponent_div_47_Template, 5, 2, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](49, AboutComponent_div_49_Template, 4, 2, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](52, "Workshops Attended");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "table", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "thead");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](56, "th", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](57, "#");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "th", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](59, "Workshop Name");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](60, "th", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](61, "Date");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](62, "tbody");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](63, AboutComponent_tr_63_Template, 5, 3, "tr", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](64, "div", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](65, "h5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](66, " For more information on projects please visit the ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](67, "a", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function AboutComponent_Template_a_click_67_listener() { return ctx.toTop(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](68, "Project Page");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](69, ". ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.aboutCodingSkills);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.aboutFrameworkSkills);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.aboutComputationalSkills);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.aboutProductDesginSkills);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.aboutLabSkills);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.aboutSections);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterLinkWithHref"]], styles: [".circle[_ngcontent-%COMP%] {\n  box-sizing: border-box;\n}\n\n.skill-icon[_ngcontent-%COMP%] {\n  width: 24px;\n}\n\n@media (max-width: 575.98px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 200px;\n    width: 200px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    margin-bottom: 25px;\n  }\n\n  h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], h4[_ngcontent-%COMP%], h5[_ngcontent-%COMP%], h6[_ngcontent-%COMP%] {\n    justify-content: center;\n    text-align: center;\n  }\n}\n\n@media (min-width: 576px) and (max-width: 767.98px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 250px;\n    width: 250px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    margin-bottom: 25px;\n  }\n\n  h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], h4[_ngcontent-%COMP%], h5[_ngcontent-%COMP%], h6[_ngcontent-%COMP%] {\n    justify-content: center;\n    text-align: center;\n  }\n}\n\n@media (min-width: 768px) and (max-width: 991.98px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 300px;\n    width: 300px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    margin-bottom: 25px;\n  }\n\n  h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], h4[_ngcontent-%COMP%], h5[_ngcontent-%COMP%], h6[_ngcontent-%COMP%] {\n    justify-content: center;\n    text-align: center;\n  }\n}\n\n@media (min-width: 992px) and (max-width: 1199.98px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 400px;\n    width: 400px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    margin-bottom: 25px;\n  }\n\n  h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], h4[_ngcontent-%COMP%], h5[_ngcontent-%COMP%], h6[_ngcontent-%COMP%] {\n    justify-content: center;\n    text-align: center;\n  }\n}\n\n@media (min-width: 1200px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 400px;\n    width: 400px;\n  }\n\n  .designation[_ngcontent-%COMP%] {\n    padding-top: 100px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQkFBQTtBQUNGOztBQUVBO0VBQ0UsV0FBQTtBQUNGOztBQUVBO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtJQUNBLGNBQUE7SUFDQSxpQkFBQTtJQUNBLGtCQUFBO0lBQ0EsbUJBQUE7RUFDRjs7RUFFQTtJQUNFLHVCQUFBO0lBQ0Esa0JBQUE7RUFDRjtBQUNGOztBQUlBO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtJQUNBLGNBQUE7SUFDQSxpQkFBQTtJQUNBLGtCQUFBO0lBQ0EsbUJBQUE7RUFGRjs7RUFLQTtJQUNFLHVCQUFBO0lBQ0Esa0JBQUE7RUFGRjtBQUNGOztBQU9BO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtJQUNBLGNBQUE7SUFDQSxpQkFBQTtJQUNBLGtCQUFBO0lBQ0EsbUJBQUE7RUFMRjs7RUFRQTtJQUNFLHVCQUFBO0lBQ0Esa0JBQUE7RUFMRjtBQUNGOztBQVVBO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtJQUNBLGNBQUE7SUFDQSxpQkFBQTtJQUNBLGtCQUFBO0lBQ0EsbUJBQUE7RUFSRjs7RUFXQTtJQUNFLHVCQUFBO0lBQ0Esa0JBQUE7RUFSRjtBQUNGOztBQWFBO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtFQVhGOztFQWNBO0lBQ0Usa0JBQUE7RUFYRjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2lyY2xlIHtcbiAgYm94LXNpemluZzpib3JkZXItYm94O1xufVxuXG4uc2tpbGwtaWNvbiB7XG4gIHdpZHRoOiAyNHB4O1xufVxuLy8gRXh0cmEgc21hbGwgZGV2aWNlcyAocG9ydHJhaXQgcGhvbmVzLCBsZXNzIHRoYW4gNTc2cHgpXG5AbWVkaWEgKG1heC13aWR0aDogNTc1Ljk4cHgpIHtcbiAgLmNpcmNsZSB7XG4gICAgaGVpZ2h0OiAyMDBweDtcbiAgICB3aWR0aDogMjAwcHg7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6YXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6YXV0bztcbiAgICBtYXJnaW4tYm90dG9tOjI1cHg7XG4gIH1cblxuICBoMSwgaDIsIGgzLCBoNCwgaDUsIGg2IHtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIH1cblxuIH1cblxuLy8gU21hbGwgZGV2aWNlcyAobGFuZHNjYXBlIHBob25lcywgNTc2cHggYW5kIHVwKVxuQG1lZGlhIChtaW4td2lkdGg6IDU3NnB4KSBhbmQgKG1heC13aWR0aDogNzY3Ljk4cHgpIHtcbiAgLmNpcmNsZSB7XG4gICAgaGVpZ2h0OiAyNTBweDtcbiAgICB3aWR0aDogMjUwcHg7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6YXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6YXV0bztcbiAgICBtYXJnaW4tYm90dG9tOjI1cHg7XG4gIH1cblxuICBoMSwgaDIsIGgzLCBoNCwgaDUsIGg2IHtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIH1cblxuIH1cblxuLy8gTWVkaXVtIGRldmljZXMgKHRhYmxldHMsIDc2OHB4IGFuZCB1cClcbkBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkgYW5kIChtYXgtd2lkdGg6IDk5MS45OHB4KSB7XG4gIC5jaXJjbGUge1xuICAgIGhlaWdodDogMzAwcHg7XG4gICAgd2lkdGg6IDMwMHB4O1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OmF1dG87XG4gICAgbWFyZ2luLXJpZ2h0OmF1dG87XG4gICAgbWFyZ2luLWJvdHRvbToyNXB4O1xuICB9XG5cbiAgaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB9XG5cbn1cblxuLy8gTGFyZ2UgZGV2aWNlcyAoZGVza3RvcHMsIDk5MnB4IGFuZCB1cClcbkBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkgYW5kIChtYXgtd2lkdGg6IDExOTkuOThweCkge1xuICAuY2lyY2xlIHtcbiAgICBoZWlnaHQ6IDQwMHB4O1xuICAgIHdpZHRoOiA0MDBweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBtYXJnaW4tbGVmdDphdXRvO1xuICAgIG1hcmdpbi1yaWdodDphdXRvO1xuICAgIG1hcmdpbi1ib3R0b206MjVweDtcbiAgfVxuXG4gIGgxLCBoMiwgaDMsIGg0LCBoNSwgaDYge1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgfVxuXG4gfVxuXG4vLyBFeHRyYSBsYXJnZSBkZXZpY2VzIChsYXJnZSBkZXNrdG9wcywgMTIwMHB4IGFuZCB1cClcbkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHtcbiAgLmNpcmNsZSB7XG4gICAgaGVpZ2h0OiA0MDBweDtcbiAgICB3aWR0aDogNDAwcHg7XG4gIH1cblxuICAuZGVzaWduYXRpb24ge1xuICAgIHBhZGRpbmctdG9wOiAxMDBweDtcbiAgfVxuXG5cbiB9XG5cblxuIl19 */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AboutComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.aboutCodingSkills);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.aboutFrameworkSkills);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.aboutComputationalSkills);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.aboutProductDesginSkills);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.aboutLabSkills);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.aboutSections);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.aboutWorkshopData);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterLinkWithHref"]], styles: [".circle[_ngcontent-%COMP%] {\n  box-sizing: border-box;\n}\n\n.skill-icon[_ngcontent-%COMP%] {\n  width: 24px;\n}\n\n@media (max-width: 575.98px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 200px;\n    width: 200px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    margin-bottom: 25px;\n  }\n\n  h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], h4[_ngcontent-%COMP%], h5[_ngcontent-%COMP%], h6[_ngcontent-%COMP%], .cv[_ngcontent-%COMP%] {\n    justify-content: center;\n    text-align: center;\n  }\n}\n\n@media (min-width: 576px) and (max-width: 767.98px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 250px;\n    width: 250px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    margin-bottom: 25px;\n  }\n\n  h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], h4[_ngcontent-%COMP%], h5[_ngcontent-%COMP%], h6[_ngcontent-%COMP%], .cv[_ngcontent-%COMP%] {\n    justify-content: center;\n    text-align: center;\n  }\n}\n\n@media (min-width: 768px) and (max-width: 991.98px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 300px;\n    width: 300px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    margin-bottom: 25px;\n  }\n\n  h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], h4[_ngcontent-%COMP%], h5[_ngcontent-%COMP%], h6[_ngcontent-%COMP%], .cv[_ngcontent-%COMP%] {\n    justify-content: center;\n    text-align: center;\n  }\n}\n\n@media (min-width: 992px) and (max-width: 1199.98px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 400px;\n    width: 400px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    margin-bottom: 25px;\n  }\n\n  h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], h4[_ngcontent-%COMP%], h5[_ngcontent-%COMP%], h6[_ngcontent-%COMP%], .cv[_ngcontent-%COMP%] {\n    justify-content: center;\n    text-align: center;\n  }\n}\n\n@media (min-width: 1200px) {\n  .circle[_ngcontent-%COMP%] {\n    height: 400px;\n    width: 400px;\n  }\n\n  .designation[_ngcontent-%COMP%] {\n    padding-top: 100px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQkFBQTtBQUNGOztBQUVBO0VBQ0UsV0FBQTtBQUNGOztBQUVBO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtJQUNBLGNBQUE7SUFDQSxpQkFBQTtJQUNBLGtCQUFBO0lBQ0EsbUJBQUE7RUFDRjs7RUFFQTtJQUNFLHVCQUFBO0lBQ0Esa0JBQUE7RUFDRjtBQUNGOztBQUlBO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtJQUNBLGNBQUE7SUFDQSxpQkFBQTtJQUNBLGtCQUFBO0lBQ0EsbUJBQUE7RUFGRjs7RUFLQTtJQUNFLHVCQUFBO0lBQ0Esa0JBQUE7RUFGRjtBQUNGOztBQU9BO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtJQUNBLGNBQUE7SUFDQSxpQkFBQTtJQUNBLGtCQUFBO0lBQ0EsbUJBQUE7RUFMRjs7RUFRQTtJQUNFLHVCQUFBO0lBQ0Esa0JBQUE7RUFMRjtBQUNGOztBQVVBO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtJQUNBLGNBQUE7SUFDQSxpQkFBQTtJQUNBLGtCQUFBO0lBQ0EsbUJBQUE7RUFSRjs7RUFXQTtJQUNFLHVCQUFBO0lBQ0Esa0JBQUE7RUFSRjtBQUNGOztBQWFBO0VBQ0U7SUFDRSxhQUFBO0lBQ0EsWUFBQTtFQVhGOztFQWNBO0lBQ0Usa0JBQUE7RUFYRjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2lyY2xlIHtcbiAgYm94LXNpemluZzpib3JkZXItYm94O1xufVxuXG4uc2tpbGwtaWNvbiB7XG4gIHdpZHRoOiAyNHB4O1xufVxuLy8gRXh0cmEgc21hbGwgZGV2aWNlcyAocG9ydHJhaXQgcGhvbmVzLCBsZXNzIHRoYW4gNTc2cHgpXG5AbWVkaWEgKG1heC13aWR0aDogNTc1Ljk4cHgpIHtcbiAgLmNpcmNsZSB7XG4gICAgaGVpZ2h0OiAyMDBweDtcbiAgICB3aWR0aDogMjAwcHg7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luLWxlZnQ6YXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6YXV0bztcbiAgICBtYXJnaW4tYm90dG9tOjI1cHg7XG4gIH1cblxuICBoMSwgaDIsIGgzLCBoNCwgaDUsIGg2LCAuY3Yge1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgfVxuXG4gfVxuXG4vLyBTbWFsbCBkZXZpY2VzIChsYW5kc2NhcGUgcGhvbmVzLCA1NzZweCBhbmQgdXApXG5AbWVkaWEgKG1pbi13aWR0aDogNTc2cHgpIGFuZCAobWF4LXdpZHRoOiA3NjcuOThweCkge1xuICAuY2lyY2xlIHtcbiAgICBoZWlnaHQ6IDI1MHB4O1xuICAgIHdpZHRoOiAyNTBweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBtYXJnaW4tbGVmdDphdXRvO1xuICAgIG1hcmdpbi1yaWdodDphdXRvO1xuICAgIG1hcmdpbi1ib3R0b206MjVweDtcbiAgfVxuXG4gIGgxLCBoMiwgaDMsIGg0LCBoNSwgaDYsIC5jdiB7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB9XG5cbiB9XG5cbi8vIE1lZGl1bSBkZXZpY2VzICh0YWJsZXRzLCA3NjhweCBhbmQgdXApXG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIGFuZCAobWF4LXdpZHRoOiA5OTEuOThweCkge1xuICAuY2lyY2xlIHtcbiAgICBoZWlnaHQ6IDMwMHB4O1xuICAgIHdpZHRoOiAzMDBweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBtYXJnaW4tbGVmdDphdXRvO1xuICAgIG1hcmdpbi1yaWdodDphdXRvO1xuICAgIG1hcmdpbi1ib3R0b206MjVweDtcbiAgfVxuXG4gIGgxLCBoMiwgaDMsIGg0LCBoNSwgaDYsIC5jdiB7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB9XG5cbn1cblxuLy8gTGFyZ2UgZGV2aWNlcyAoZGVza3RvcHMsIDk5MnB4IGFuZCB1cClcbkBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkgYW5kIChtYXgtd2lkdGg6IDExOTkuOThweCkge1xuICAuY2lyY2xlIHtcbiAgICBoZWlnaHQ6IDQwMHB4O1xuICAgIHdpZHRoOiA0MDBweDtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBtYXJnaW4tbGVmdDphdXRvO1xuICAgIG1hcmdpbi1yaWdodDphdXRvO1xuICAgIG1hcmdpbi1ib3R0b206MjVweDtcbiAgfVxuXG4gIGgxLCBoMiwgaDMsIGg0LCBoNSwgaDYsIC5jdiB7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB9XG5cbiB9XG5cbi8vIEV4dHJhIGxhcmdlIGRldmljZXMgKGxhcmdlIGRlc2t0b3BzLCAxMjAwcHggYW5kIHVwKVxuQG1lZGlhIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAuY2lyY2xlIHtcbiAgICBoZWlnaHQ6IDQwMHB4O1xuICAgIHdpZHRoOiA0MDBweDtcbiAgfVxuXG4gIC5kZXNpZ25hdGlvbiB7XG4gICAgcGFkZGluZy10b3A6IDEwMHB4O1xuICB9XG5cblxuIH1cblxuXG4iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AboutComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
         args: [{
                 selector: 'app-about',
                 templateUrl: './about.component.html',
@@ -320,7 +374,7 @@ class SlidesComponent {
             { url: 'assets/cover-slides/azadkhoj.jpg',
                 alt: 'First Slide',
                 heading: 'Khoj-2017',
-                section: 'Khoj is a treasure hunt event for first year ungergraduate students in IIT Kharagpur organized by Azad Hall of Residence. This is me developing panels for the event'
+                section: 'Khoj is a treasure hunt event for first-year undergraduate students in IIT Kharagpur organized by Azad Hall of Residence. In this picture, I am working on display panels for the competition.'
             },
             {
                 url: 'assets/cover-slides/bangalore.jpg',
@@ -332,13 +386,13 @@ class SlidesComponent {
                 url: 'assets/cover-slides/birthday.jpg',
                 alt: 'Third Slide',
                 heading: 'Birthday Celebration',
-                section: 'Celebrating birthday with all my friends. This was my last birthday in IIT Kharagpur with almost everyone whom I cherish in my life.'
+                section: 'Celebrating my birthday with all my friends. This was my last birthday in IIT Kharagpur with almost everyone whom I cherish in my life.'
             },
             {
                 url: 'assets/cover-slides/encore.jpg',
                 alt: 'Fourth Slide',
-                heading: 'ENCORE, IIT Kharagpur - Batch of 2016',
-                section: 'Place where I learned about drama and made friends with these amazing artist'
+                heading: 'The batch of 2016, ENCORE, IIT Kharagpur',
+                section: 'Place where I learned about drama and became friend with these amazing artist'
             },
             {
                 url: 'assets/cover-slides/gd.jpg',
@@ -356,7 +410,7 @@ class SlidesComponent {
                 url: 'assets/cover-slides/selfmade.png',
                 alt: 'Seventh Slide',
                 heading: '3D Printed Narcissim',
-                section: 'I love 3D modeling and wanted to create something for me so I created a of my forehead and 3D printed it using Creality Enders 3'
+                section: 'I love 3D modeling and wanted to create something for me so I created my forehead and 3D printed it using Creality Enders 3.'
             },
             {
                 url: 'assets/cover-slides/prodexteam.jpg',
@@ -380,19 +434,19 @@ class SlidesComponent {
                 url: 'assets/cover-slides/friends.jpg',
                 alt: 'nine two one Slide',
                 heading: 'Good old friends',
-                section: 'It is hard to get good people in life. These are one of the precious people in my college friends.'
+                section: 'It is hard to get good people in life. These are some of the precious people in my college friends.'
             },
             {
                 url: 'assets/cover-slides/lastsupper.jpg',
                 alt: 'nine three one Slide',
                 heading: 'The last hangout',
-                section: 'Before leaving IIT Kharagpur, this is the one final meet with friends'
+                section: 'Before leaving IIT Kharagpur, this is the one final meet with friends.'
             },
             {
                 url: 'assets/cover-slides/testing.jpg',
                 alt: 'Tenth Slide',
                 heading: 'Doing analysis of circuit using Hantek portable Oscilloscope',
-                section: 'I like to work with electronics and this is one of the testing event where I check the circuits that I have developed'
+                section: 'I like to work with electronics and this is one of the testing events where I check the circuits that I have developed.'
             },
             {
                 url: 'assets/cover-slides/workspace.jpg',
@@ -404,7 +458,7 @@ class SlidesComponent {
                 url: 'assets/projects/mime.jpg',
                 alt: 'Twelth Slide',
                 heading: 'Drama: Mime',
-                section: 'Performed Mime in a college play as a part of freshers production as part of ENCORE, IIT Kharagpur. The mime consists of a team of joker who robbed a bank.'
+                section: 'Performed mime in the Freshers Production as part of ENCORE, IIT Kharagpur. The mime consists of a team of jokers who robbed a bank. Link of the play :  <a href="" class="badge badge-primary">Click Here</a>'
             },
             {
                 url: 'assets/projects/nukkad.jpg',
@@ -453,7 +507,7 @@ SlidesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.slides);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.slides);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], styles: [".carousel-image-container[_ngcontent-%COMP%] {\n  height: calc(100vh - 40px);\n  text-align: center;\n  vertical-align: middle;\n  display: table-cell;\n  background-color: black;\n  padding-left: auto;\n  padding-right: auto;\n}\n\n.carousel-caption[_ngcontent-%COMP%] {\n  padding: 3%;\n  background-color: rgba(0, 0, 0, 0.4);\n  margin-bottom: 5%;\n  border-radius: 6px;\n}\n\n.carousel-image-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-left: auto;\n  margin-right: auto;\n  max-height: 100%;\n  max-width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRkb25zL3NsaWRlcy9zbGlkZXMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDRSwwQkFBQTtFQUNBLGtCQUFBO0VBQ0Esc0JBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtBQUFGOztBQUlBO0VBQ0UsV0FBQTtFQUNELG9DQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUREOztBQUlBO0VBQ0UsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsZUFBQTtBQURGIiwiZmlsZSI6InNyYy9hcHAvYWRkb25zL3NsaWRlcy9zbGlkZXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5jYXJvdXNlbC1pbWFnZS1jb250YWluZXIge1xuICBoZWlnaHQ6IGNhbGMoMTAwdmggLSA0MHB4KTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICBkaXNwbGF5OiB0YWJsZS1jZWxsO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgcGFkZGluZy1sZWZ0OmF1dG87XG4gIHBhZGRpbmctcmlnaHQ6YXV0bztcbn1cblxuXG4uY2Fyb3VzZWwtY2FwdGlvbiB7XG4gIHBhZGRpbmc6MyU7XG5cdGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwwLDAsMC40KTtcblx0bWFyZ2luLWJvdHRvbTo1JTtcblx0Ym9yZGVyLXJhZGl1czo2cHg7XG59XG5cbi5jYXJvdXNlbC1pbWFnZS1jb250YWluZXIgaW1nIHtcbiAgbWFyZ2luLWxlZnQ6YXV0bztcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICBtYXgtaGVpZ2h0OiAxMDAlO1xuICBtYXgtd2lkdGg6IDEwMCU7XG5cbiAgLy92ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xufVxuXG4vLyAuaGVscGVyIHtcbi8vICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuLy8gICBoZWlnaHQ6IDAlO1xuLy8gICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuLy8gfVxuXG4vL0V4dHJhIHNtYWxsIGRldmljZXMgKHBvcnRyYWl0IHBob25lcywgbGVzcyB0aGFuIDU3NnB4KVxuQG1lZGlhIChtYXgtd2lkdGg6IDU3NS45OHB4KSB7XG5cbiAgLmNhcm91c2VsLWltYWdlLWNvbnRhaW5lciB7XG5cbiAgfVxuXG59XG5cbi8vIFNtYWxsIGRldmljZXMgKGxhbmRzY2FwZSBwaG9uZXMsIDU3NnB4IGFuZCB1cClcbkBtZWRpYSAobWluLXdpZHRoOiA1NzZweCkgYW5kIChtYXgtd2lkdGg6IDc2Ny45OHB4KSB7XG5cbiAgLmNhcm91c2VsLWltYWdlLWNvbnRhaW5lciB7XG5cbiAgfVxufVxuXG4vLyBNZWRpdW0gZGV2aWNlcyAodGFibGV0cywgNzY4cHggYW5kIHVwKVxuQG1lZGlhIChtaW4td2lkdGg6IDc2OHB4KSBhbmQgKG1heC13aWR0aDogOTkxLjk4cHgpIHtcbiAgLmNhcm91c2VsLWltYWdlLWNvbnRhaW5lciB7XG5cbiAgfVxufVxuXG4vLyBMYXJnZSBkZXZpY2VzIChkZXNrdG9wcywgOTkycHggYW5kIHVwKVxuQG1lZGlhIChtaW4td2lkdGg6IDk5MnB4KSBhbmQgKG1heC13aWR0aDogMTE5OS45OHB4KSB7XG5cbiAgLmNhcm91c2VsLWltYWdlLWNvbnRhaW5lciB7XG5cbiAgfVxufVxuXG4vLyBFeHRyYSBsYXJnZSBkZXZpY2VzIChsYXJnZSBkZXNrdG9wcywgMTIwMHB4IGFuZCB1cClcbkBtZWRpYSAobWluLXdpZHRoOiAxMjAwcHgpIHtcblxuICAuY2Fyb3VzZWwtaW1hZ2UtY29udGFpbmVyIHtcblxuICB9XG59XG5cbiJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], styles: [".carousel-image-container[_ngcontent-%COMP%] {\n  height: calc(100vh - 40px);\n  text-align: center;\n  vertical-align: middle;\n  display: table-cell;\n  background-color: #323232;\n  padding-left: auto;\n  padding-right: auto;\n}\n\n.carousel-caption[_ngcontent-%COMP%] {\n  padding: 3%;\n  background-color: rgba(0, 0, 0, 0.4);\n  margin-bottom: 5%;\n  border-radius: 6px;\n}\n\n.carousel-image-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-left: auto;\n  margin-right: auto;\n  max-height: 100%;\n  max-width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRkb25zL3NsaWRlcy9zbGlkZXMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDRSwwQkFBQTtFQUNBLGtCQUFBO0VBQ0Esc0JBQUE7RUFDQSxtQkFBQTtFQUNBLHlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxtQkFBQTtBQUFGOztBQUlBO0VBQ0UsV0FBQTtFQUNELG9DQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtBQUREOztBQUlBO0VBQ0UsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsZUFBQTtBQURGIiwiZmlsZSI6InNyYy9hcHAvYWRkb25zL3NsaWRlcy9zbGlkZXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5jYXJvdXNlbC1pbWFnZS1jb250YWluZXIge1xuICBoZWlnaHQ6IGNhbGMoMTAwdmggLSA0MHB4KTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICBkaXNwbGF5OiB0YWJsZS1jZWxsO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoNTAgLCA1MCwgNTApO1xuICBwYWRkaW5nLWxlZnQ6YXV0bztcbiAgcGFkZGluZy1yaWdodDphdXRvO1xufVxuXG5cbi5jYXJvdXNlbC1jYXB0aW9uIHtcbiAgcGFkZGluZzozJTtcblx0YmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLDAsMCwwLjQpO1xuXHRtYXJnaW4tYm90dG9tOjUlO1xuXHRib3JkZXItcmFkaXVzOjZweDtcbn1cblxuLmNhcm91c2VsLWltYWdlLWNvbnRhaW5lciBpbWcge1xuICBtYXJnaW4tbGVmdDphdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIG1heC1oZWlnaHQ6IDEwMCU7XG4gIG1heC13aWR0aDogMTAwJTtcblxuICAvL3ZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG59XG5cbi8vIC5oZWxwZXIge1xuLy8gICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4vLyAgIGhlaWdodDogMCU7XG4vLyAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4vLyB9XG5cbi8vRXh0cmEgc21hbGwgZGV2aWNlcyAocG9ydHJhaXQgcGhvbmVzLCBsZXNzIHRoYW4gNTc2cHgpXG5AbWVkaWEgKG1heC13aWR0aDogNTc1Ljk4cHgpIHtcblxuICAuY2Fyb3VzZWwtaW1hZ2UtY29udGFpbmVyIHtcblxuICB9XG5cbn1cblxuLy8gU21hbGwgZGV2aWNlcyAobGFuZHNjYXBlIHBob25lcywgNTc2cHggYW5kIHVwKVxuQG1lZGlhIChtaW4td2lkdGg6IDU3NnB4KSBhbmQgKG1heC13aWR0aDogNzY3Ljk4cHgpIHtcblxuICAuY2Fyb3VzZWwtaW1hZ2UtY29udGFpbmVyIHtcblxuICB9XG59XG5cbi8vIE1lZGl1bSBkZXZpY2VzICh0YWJsZXRzLCA3NjhweCBhbmQgdXApXG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIGFuZCAobWF4LXdpZHRoOiA5OTEuOThweCkge1xuICAuY2Fyb3VzZWwtaW1hZ2UtY29udGFpbmVyIHtcblxuICB9XG59XG5cbi8vIExhcmdlIGRldmljZXMgKGRlc2t0b3BzLCA5OTJweCBhbmQgdXApXG5AbWVkaWEgKG1pbi13aWR0aDogOTkycHgpIGFuZCAobWF4LXdpZHRoOiAxMTk5Ljk4cHgpIHtcblxuICAuY2Fyb3VzZWwtaW1hZ2UtY29udGFpbmVyIHtcblxuICB9XG59XG5cbi8vIEV4dHJhIGxhcmdlIGRldmljZXMgKGxhcmdlIGRlc2t0b3BzLCAxMjAwcHggYW5kIHVwKVxuQG1lZGlhIChtaW4td2lkdGg6IDEyMDBweCkge1xuXG4gIC5jYXJvdXNlbC1pbWFnZS1jb250YWluZXIge1xuXG4gIH1cbn1cblxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SlidesComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -501,7 +555,7 @@ const routes = [
     { path: 'competitions', component: _competitions_competitions_component__WEBPACK_IMPORTED_MODULE_5__["CompetitionsComponent"] },
     { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"] },
     { path: 'projects', component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"] },
-    { path: 'life', component: _life_life_component__WEBPACK_IMPORTED_MODULE_0__["LifeComponent"] }
+    { path: 'life', component: _life_life_component__WEBPACK_IMPORTED_MODULE_0__["LifeComponent"] },
 ];
 class AppRoutingModule {
 }
@@ -739,9 +793,9 @@ function CompetitionsComponent_div_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "h1", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "p", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "p", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "h2", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "p", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "strong", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -759,45 +813,45 @@ class CompetitionsComponent {
     constructor() {
         this.competitionData = [
             {
-                title: 'Clinton Global Initiative - University, Participant',
-                discription: 'Presented project Evapo-Reefer, a truck concept based on evaporative cooling to prevent food wastage during transport.<br> For information on team <a href="https://www.facebook.com/prodex.iitkgp/posts/1616532235115395">click here</a>',
-                date: '19th - 21st Oct, 2018',
-                image: 'assets/competitions/CGIU.jpg'
-            },
-            {
-                title: 'Participated in Global Entrepreneurship Summit(GES), 2018',
-                discription: 'GES is a summit where people from different regions come in and present their idea to secure funding and promotion of thier ideas. In GES our team presented FireAxe, an attachable module to improve harvester to prevent burning of stubble',
-                date: '',
-                image: 'assets/competitions/GES.jpg'
-            },
-            {
-                title: 'Secured 2nd position in Prod-D, Prakarti, IIT Kharagpur, 2018',
-                discription: 'Prakarti is an agricultural based technology fest of IIT Kharagpur, here we presented our product FireAxe, an attachable module to improve harvester to prevent burning of stubble and secured 2nd rank in the competition Prod-D, a product design competition',
-                date: '',
-                image: 'assets/competitions/ProD-D.jpg'
-            },
-            {
-                title: 'Secured 1st position in product desing competition in INAE Youth Conclave, 2019',
-                discription: 'Indian National Academy of Engineering (INAE), Youth Conclave is a yearly meeting organised by INAE which aims to bring academician, engineers, scientist and students together and discuss to improve the academic engineering practise. During the conclave there are several product design competition that in various fields ',
-                date: '',
-                image: 'assets/competitions/INAE.jpg'
-            },
-            {
-                title: '2nd position, Siemens MakeItReal Hackathon (2019)',
-                discription: 'Siemens MakeItReal Hackathon was a 24 Hours product developement competition where we developed hardware and software for TaSafe, a foot wearable women safety product and secured 2nd position',
-                date: '',
+                title: 'Second Position, Siemens MakeItReal Hackathon',
+                discription: 'Siemens MakeItReal Hackathon was a 24 hours product development competition organized by Siemens and Hacker Earth. During the 24 hours, we developed our software and hardware setup for the product TaSafe: A foot wearable product, that can electrocute assailant and send an emergency alert to police and personal contacts. <a href="https://www.facebook.com/prodex.iitkgp/posts/2264931653608780">See More</a>',
+                date: '19th-20th December 2019',
                 image: 'assets/competitions/makeitreal.jpg'
             },
             {
-                title: '3rd position, Rural Technology Hackathon, IIT Kharagpur (2018)',
-                discription: 'Rural Technology Hacthon was a three day hackathon where student from different colleges gathered to make their hardware model. Our team developed Peltier Chulha which later became Thermo-Electric Generator for Stoves and Chulha. This product on its first run generated around 6W of electricity from waste heat.',
-                date: '',
+                title: 'First Position, Product Design Competition, INAE Youth Conclave',
+                discription: 'Indian National Academy of Engineering (INAE), Youth Conclave is a yearly meeting organized by INAE. This meeting aims to create a bridge between engineers and students working in different disciplines and promote student innovation.',
+                date: '9th-10th August 2019',
+                image: 'assets/competitions/INAE.jpg'
+            },
+            {
+                title: 'Third Position, Rural Technology Hackathon',
+                discription: 'Rural Technology Hacthon was a three-day hackathon where students from different colleges gathered at IIT Kharagpur to make their hardware model. Our team developed Peltier Chulha that later became Thermo-Electric Generator for Stoves and Chulha. Peltier Chulha is a product that can generate electricity from the waste heat of stoves and chulha (earthen stoves found in Indian Villages). As a finale, we generated around 6 Watts of power from our model and secured a third position in the competition.',
+                date: '19th-22nd December 2018',
                 image: 'assets/competitions/ruraltech.jpg'
             },
             {
-                title: '2nd Prize, National Insitute of Securities Market(NISM), Pocket Money Quiz (2013) ',
-                discription: 'NISM organizes quizes in school level for promotion of financial literacy in school students. In its first chapter our team participated and secured 2nd position in regional level quiz.',
-                date: '',
+                title: 'Participant, Clinton Global Initiative - University',
+                discription: 'Presented the project Evapo-Reefer, a truck concept based on evaporative cooling to prevent food wastage during transport.<br> For information on team <a href="https://www.facebook.com/prodex.iitkgp/posts/1616532235115395">click here</a>',
+                date: '19th - 21st October, 2018',
+                image: 'assets/competitions/CGIU.jpg'
+            },
+            {
+                title: 'Second Position, Prod-D, Prakarti',
+                discription: 'Prakriti is an agricultural-based technology fest of IIT Kharagpur. We presented our product FireAxe, an attachable module to improve harvester to prevent stubble burning, and secured 2nd rank in Prod-D, a product design competition. <a href="https://www.facebook.com/prodex.iitkgp/posts/1349857315116223">See More</a>',
+                date: '17th March 2018',
+                image: 'assets/competitions/ProD-D.jpg'
+            },
+            {
+                title: 'Participant, Global Entrepreneurship Summit (GES)',
+                discription: 'GES is a summit where people from different regions join IIT Kharagpur to present their idea to secure funding and promotion. In this summit, our team presented FireAxe: an attachable module for the harvester to prevent stubble burning.<a href="https://www.facebook.com/prodex.iitkgp/posts/1307618986006723">See More</a>',
+                date: '3rd Febuary 2018',
+                image: 'assets/competitions/GES.jpg'
+            },
+            {
+                title: 'Second Position, Pocket Money Quiz, National Insitute of Securities Market (NISM)',
+                discription: 'NISM organizes quizzes at the school level for the promotion of financial literacy in school students. In its first chapter our team participated and secured 2nd position in the regional level quiz.',
+                date: '5th January 2013',
                 image: 'assets/competitions/nflt.jpg'
             },
         ];
@@ -806,7 +860,7 @@ class CompetitionsComponent {
     }
 }
 CompetitionsComponent.ɵfac = function CompetitionsComponent_Factory(t) { return new (t || CompetitionsComponent)(); };
-CompetitionsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CompetitionsComponent, selectors: [["app-competitions"]], decls: 3, vars: 1, consts: [[1, "row", "m-0", "p-0"], [1, "col-12", "m-0", "p-0"], ["class", "row d-lg-flex flex-lg-row p-0 m-0 text-left  text-black border-0 rounded-0 card-nb4 mb-2", "style", "background-color: white;", 4, "ngFor", "ngForOf"], [1, "row", "d-lg-flex", "flex-lg-row", "p-0", "m-0", "text-left", "text-black", "border-0", "rounded-0", "card-nb4", "mb-2", 2, "background-color", "white"], [1, "col-lg-8", "m-0", "p-0", 2, "overflow", "hidden"], ["alt", "Card image", 1, "w-100", 3, "src"], [1, "m-0", "p-5", "col-lg-4"], [1, "", 3, "innerHTML"]], template: function CompetitionsComponent_Template(rf, ctx) { if (rf & 1) {
+CompetitionsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CompetitionsComponent, selectors: [["app-competitions"]], decls: 3, vars: 1, consts: [[1, "row", "m-0", "p-0"], [1, "col-12", "m-0", "p-0"], ["class", "row d-lg-flex flex-lg-row p-0 m-0 text-left  text-black bg-light border-0 rounded-0 card-nb4 mb-2", "style", ";", 4, "ngFor", "ngForOf"], [1, "row", "d-lg-flex", "flex-lg-row", "p-0", "m-0", "text-left", "text-black", "bg-light", "border-0", "rounded-0", "card-nb4", "mb-2"], [1, "col-lg-8", "m-0", "p-0", 2, "overflow", "hidden"], ["alt", "Card image", 1, "w-100", 3, "src"], [1, "m-0", "p-5", "col-lg-4"], [1, "", 3, "innerHTML"], [1, "", 2, "font-size", "18px", 3, "innerHTML"]], template: function CompetitionsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, CompetitionsComponent_div_2_Template, 7, 4, "div", 2);
@@ -868,7 +922,7 @@ ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
 /*!************************************!*\
   !*** ./src/app/data/about-data.ts ***!
   \************************************/
-/*! exports provided: AboutData, codingLanguageSkillData, frameworkSkillData, computationalChemistryData, productDesigningData, labSkillData */
+/*! exports provided: AboutData, codingLanguageSkillData, frameworkSkillData, computationalChemistryData, productDesigningData, labSkillData, workshopData */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -879,46 +933,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "computationalChemistryData", function() { return computationalChemistryData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "productDesigningData", function() { return productDesigningData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "labSkillData", function() { return labSkillData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "workshopData", function() { return workshopData; });
 /* harmony import */ var _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../models/about-data-model */ "./src/app/models/about-data-model.ts");
 
 
 const experiences = [
-    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["ExperienceDataModel"]('August 2020 - Current', 'Water Splitting', 'Under Prof. C. R. Raj, Department of Chemistry, IIT Kharagpur, India', `I am working on identification of material and learning techniques to analyses material to identify features
-  to imporve upon water splitting. Currenlt I am studying different materials and trying to find patterns that
-  be utilised for designing materials for water splitting`),
-    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["ExperienceDataModel"]('April 2020 - August 2020', 'Summer Internship', 'Under Prof. Gorachand Dutta, School of Medical Science and Technology, IIT Khargpur India', `Learned about developements in biomedical devices that can be used to identify diseases like malaria
-  dengue and viral infection by learning about their signature on the body. Studied about biomimetic bilayer
-  for application in a sensor for diseas and toxin detection. Tried to develop ideas that can be used
-  to develop rapid testing kits to detect the disease causing bodies.
+    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["ExperienceDataModel"]('August 2020 - Current', 'Water Splitting', 'Under Prof. C. R. Raj, Department of Chemistry, IIT Kharagpur, India', `I am working on data analysis of materials to identify features that play a crucial role in water splitting. In this pursuit, I have developed a good understanding of materials characterization and chemistry of water splitting.`),
+    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["ExperienceDataModel"]('April 2020 - August 2020', 'Summer Internship', 'Under Prof. Gorachand Dutta, School of Medical Science and Technology, IIT Khargpur India', `Studied about developments in biomedical devices to detect diseases like malaria, dengue, and viral infection by learning about their signature on the body. Investigated biomimetic bilayer for application in a sensor for disease and toxin detection. Worked on ideas to develop rapid testing kits.
   <br/>
   `),
     new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["ExperienceDataModel"]('December 2017', 'FireAxe: Prevention of Stuble Burning', `
   Mentor: Prof. Pranab Kumar Dan, Assoc. Prof., Rajendra Mishra School of Engineering Entrepreneurship, IIT Kharagpur
   `, `
-    Stubble burning in India is a massive problem in India, owing to release of 3 millions tonnes of
-    CO<sub>2</sub> into air. We designed an addon for combine harvester suited for Indian markets to eradicate
-    resulting air pollution. This addon enables harvester to cut the crop closer to the ground and
-    at the same time covert and pack stubble into bales during harvest itself. This prevents the need
-    to burn stubble after the harvest.
+  Stubble burning in India is a massive problem in India, owing to the release of more than 1400 kg of CO<sub>2</sub> into the air. We designed an addon for combine harvester suited for Indian markets to eradicate resulting air pollution. This addon enables the harvester to cut the crop closer to the ground and press stubble into bales during harvest. This idea prevents the need to burn stubble after the harvest.
   `),
     new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["ExperienceDataModel"]('August 2016 - August 2020', 'ProDex: A Product design and development group', '', `
-    Started as a junior member in the society and worked up the ladder to Governor of the society (2018) and later as Vice President of the society (2019). Contributed in
-    different projects like Vibronot, FireAxe, EvapoReefer and TaSafe. Conducted workshops on product designing and trained freshers for OpenIIT Product Design IIT
-    Kharagpur.
-    <br />
-    Gained practical experience on design and development of products also became good in CAD softwares and computational modeling of systems for simulation.
+  Joined the group as a junior member in the society and worked up the ladder to Governor of the group (2018) and later as Vice President of the group (2019). Contributed to different projects like Vibronot, FireAxe, EvapoReefer, and TaSafe. Conducted workshops on product designing and trained freshers for OpenIIT Product Design IIT Kharagpur.
+    <br /><br />
+    Working in the group gave me experience in product development and helped me become proficient in CAD software and computation simulation.
 `)
 ];
 const experienceString = experiences.map(x => x.render()).join('');
 const AboutData = [
-    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["AboutDataModel"]('About', `I am a product designer, I want to contribute in science to prepare our world for the future. My tool of trade is nano technology. I want to contribute in the field of Nano-Machines to make catalyst that can help sysnthesize products at better and faster yield.
+    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["AboutDataModel"]('About', `I am a product designer and want to contribute to science to prepare our world for the future. I want to contribute to the field of Nano-Machines to make a catalyst that can help synthesize products at a better and faster yield.
   <br/> <br />
-  Apart from science I keep on developing software tools to help simplify flow of work. I am currently working on few application that uses wides variety of concepts. It doesn't matter technology stack I am supposed to use if it is necessary for an idea I will learn it. <br/><br />
-  I possess the quirk of fast learning and leadership. I have been part of product developement group ProDex where I have mentored and lead the product developement society ProDex from 2016.
+  Apart from science, I like developing software tools to help simplify redundant processes. I am currently working on a few applications that can help in the analysis of molecules.
+  <br/><br />
+  I am a fast learner. This skill has helped me to work in different fields of engineering and science to fulfill my goals. I have been a member, a mentor, and the leader of a product development group ProDex from IIT Kharagpur, which developed a sense of responsibility and awareness towards members working in the team.
   <br />`),
-    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["AboutDataModel"]('Aim', `I aim to develop tools to make our future sustainable, starting from software for analysis of data then materials that
-  could change the way how we utilise energy and finally develop a platform that can be used by upcomming innovators having the same desire to improve
-  this world for the future`),
+    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["AboutDataModel"]('Aim', `I aim to develop tools and frameworks to simplify the development of molecular machines. Starting with software for molecular analysis and identify methods to synthesize nanostructure.
+  `),
     new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["AboutDataModel"]('Experience', experienceString),
 ];
 // Here icon will be stored in assests/skill/icons/
@@ -953,6 +997,12 @@ const labSkillData = [
     new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["SkillModel"]('Instrument Handling', 4, 'chem-instrument'),
     new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["SkillModel"]('Safety Awareness', 4, 'safety'),
     new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["SkillModel"]('Inquisitive', 4, 'inquisitive')
+];
+const workshopData = [
+    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["WorkshopModel"]('Product Engineering and Design Idea Commpetition organized by Rajendra Mishra School of Engineering Entrepreneurship, IIT Kharagpur', '13th Nov 2016'),
+    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["WorkshopModel"]('Robotics Winter Workshop held by Robotix Society, under the Technology Students\' Gymkhana, IIT Kharagpur', 'Dec 2016'),
+    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["WorkshopModel"]('Innovation and Product Engineering organized by Rajendra Mishra School of Engineering Entrepreneurship, IIT Kharagpur', '10th Oct 2017'),
+    new _models_about_data_model__WEBPACK_IMPORTED_MODULE_0__["WorkshopModel"]('Product Engineering and IP Commercialisation organized by Rajendra Mishra School of Engineering Entrepreneurship, IIT Kharagpur', '5th Dec 2017')
 ];
 
 
@@ -997,12 +1047,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const ProjectData = [
-    new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('Super Chemistry : A customizable tool to visualize molecular data and perform some computation', 'assets/projects/superchemistry.png', 'thumbnail-horizontal-fit', 'May 2020 - Present', 'Self Initiated Project', `
-      The aim of this project is provide platform to perform analysis on the molecules without the hassel of getting into programming. In this tool graphs will be exposed that represents atoms as its node that can be used to perform calculation. These graphs will be generated based on two concepts, first concept, network between the graph depends upon spatial arrangement of atoms and second concept is based on the molecular network that is reported by literature.
+    new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('Super Chemistry: Tool to visualize and study the property of molecules', 'assets/projects/superchemistry.png', 'thumbnail-horizontal-fit', 'May 2020 - Present', 'Self Initiated Project', `
+    This project aims to provide a platform to perform analysis of the molecules without the hassle of getting into programming.
+
+    This tool will work on the mathematical models of molecules as graphs based on their position and chemical nature. This graph will be trained with Graphical Convolution Neural Network using DeepChem library.
 
       <br /><br />
 
-      This tool will be available as a web app as well as a desktop app.
+    This tool will be available as a web app as well as a desktop app.
   `, `
   <b>Desktop Application</b>: OpenGL, Qt
 
@@ -1011,7 +1063,7 @@ const ProjectData = [
   <b>Web Application</b>: WebGL, Angular, NodeJs, MongoDB, Python
   `),
     new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('Data Analytics to identify materials for water splitting', 'assets/projects/materialdatascience.png', 'thumbnail-vertical-fit', 'December 2020 - Present', 'Under Dr. C. R. Raj, Department of Chemistry, Indian Institute of Technology Kharagpur', `
-    There has been extensive research on developing water splitting material, yet there is no particular scheme or idea to design the material. This projects aims to bridge this gap by providing necessary analysis to identify design scheme to make materials for water splitting. The analysis of material is done based upon the tafel slopes, over potentials and chemical properties demonstrated by these materials.
+    There has been extensive research on developing water splitting material, yet there is no particular scheme or idea to design materials. This project aims to bridge this gap by providing the necessary analysis to identify a design scheme to make materials for water splitting. The analysis of materials is done based upon the Tafel slopes, overpotentials, and chemical properties demonstrated by these materials.
     `, `
     <b>Information</b>: Tafel Slope, Over Potentials for HER and OER, Insights from DFT, and XPS data.
 
@@ -1020,11 +1072,12 @@ const ProjectData = [
     <b>Analysis</b>: Categorization of Data and Clustering
     `),
     new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('TaSafe : Foot wearable women safety device', 'assets/projects/tasafe.png', 'thumbnail-horizontal-fit', 'December 2018 - Present', 'ProDex, IIT Kharagpur', `
-    The product - TaSafe deals with the problems regarding women’s safety in India. Various events of assailant confrontations attacks are often in a way to restrict the motion of the victim’s hands. Restricting hand motion disables victim to use available safety devices like pepper spray, pocket knife, stun gun, etc. These products do not ensure foolproof safety. Hence, there is a dire need of a women’s safety device that is cheap, easily accessible to any person, offers total security (in any scenario) by just small gestures or motion in the least possible time.
+     The product - TaSafe deals with the problems regarding women’s safety in India. Various events of assailant confrontations attacks are often trying to restrict the motion of the victim’s hands. Restricting hand motion disables victim to use available safety devices like pepper spray, pocket knife, stun gun, etc. These products do not ensure foolproof safety. Hence, there is a dire need for a women’s safety device that is cheap, easily accessible to any person, offers total security (in any scenario) by just small gestures or motion in the least possible time.
+
 
     <br /><br />
 
-    We have designed the product TaSafe: A wearable, detachable part (electrocuting leg cuff) for women’s shoes. This product when armed can electrocute the assailant in the leg for sufficient time, thus providing an easy escape from the situation; leaving behind the criminal in pain. In TaSafe, there is a leg-cuff attached to the shoe that grapples the assailant’s leg when triggered and this leg-cuff then electrocutes the assailant. In order to release the leg-cuff, we need to kick the assailant, which electrocutes him with a 20 mA oscillating current for 10s which causes an involuntary contraction in the leg muscles. TaSafe is a hands-free, as it is attached to the shoes. The assailant wouldn’t even realize what hit him as his entire focus is on grappling the upper part of the victim’s body
+    We have designed the product TaSafe: A wearable, detachable part (electrocuting leg cuff) for women’s shoes. This product can electrocute the assailant in the leg. Hence provides an easy escape from the assailant attack, leaving behind the criminal in pain. In TaSafe, there is a leg-cuff attached to the shoe that grapples the assailant’s leg when triggered, this leg-cuff then electrocutes the assailant. To release the leg-cuff, we need to kick the assailant, which electrocutes him with a 20 mA oscillating current for 10s which causes an involuntary contraction in the leg muscles. TaSafe is hands-free, as it is attached to the shoes. The assailant wouldn’t even realize what hit him as his entire focus is on grappling the upper part of the victim’s body.
 
     `, `
     <b>Hardware</b>: 3-D Printed design, Arduino with GSM and GPS module.
@@ -1034,16 +1087,14 @@ const ProjectData = [
 
     `),
     new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('Thermo-Electric Harvester for Stoves and Chulha', 'assets/projects/tehsc.png', 'thumbnail-horizontal-fit', 'December 2018 - Present ( Shelved due COVID-19 )', 'ProDex, IIT Kharagpur', `
-    Due to unavailability of electricity, education is hampered as the students are unable to study at night due to lack of luminous / lightning source and most of them have to work in the morning. There is a need for providing a viable solution to read at night. The energy wasted from domestic stoves is an energy source which is present in every household and thus can be used to provide the amount of electricity required for lighting study lamp. Our aim is to design a product that uses the energy released in mud fireplace(used as domestic stoves) to charge the battery using a Peltier plate and light up the specially designed lamp for the purpose of studying.
-
-    Heat transfer plate/mesh is attached to the inner side of the fireplace that transfers heat outside to one end of the Peltier plate. Another side of the Peltier plate is maintained at a lower temperature with the help of water. This results in the generation of a potential difference between the two terminal of Peltier plate. The potential difference developed is used to charge a Nickel Cadmium battery that is used to power a modified lamp structure designed for study purpose.
+    Due to the unavailability of electricity, learning becomes difficult as students cannot study at night due to the absence of luminous/lightning sources. A large part of such population has to work in the morning. There is a need for providing a viable solution to read at night. The energy wasted from domestic stoves is an energy source present in every household and thus can be used to provide the amount of electricity required for lighting study lamp. We aim to design a product that uses the energy released in a mud fireplace (used as domestic stoves) to charge the battery using a Peltier plate and light up the specially designed lamp to study. This product has a heat transfer plate/mesh attached to the inner side of the fireplace. This plate transfers heat to the Peltier plates at one side. Another side of the Peltier plate is maintained at a lower temperature with the help of water. This results in the generation of a potential difference between the two terminals of the Peltier plate. This potential difference developed is used to charge a Nickel Cadmium battery used to power a modified lamp structure designed for study purposes.
 
     `, `
-    This projects is based on Thermoelectric Peltier Plates that can convert  heat to electrical energy. It uses a modified boost converter along with CC CV charger to charge Nickel-Cadmium batteries. It contains a logic unit which that changes the connection depending upon utilization of batteries in different condition.
+    This project is based around Thermoelectric Peltier Plates that can convert heat to electrical energy. It uses a modified boost converter along with a CC-CV charger to charge Nickel-Cadmium batteries. It contains a logic unit which that changes the connection depending upon utilization of batteries in different condition.
 
     `),
     new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('EvapoReefer: Evaporative cooling based reefer truck concept ', 'assets/projects/evaporeefer.png', 'thumbnail-horizontal-fit', 'January 2018 - October 2019', 'ProDex', `
-    The problem of Food wastage in India is pretty acute with around **67 million tons** being wasted annually due to poor food storage facilities at various stages of the supply chain. In India, most of the fruits and vegetables are transported in trucks lacking cold storage facilities owing to high costs and power requirements associated with reefer trucks. The food wasted due to this comprises of around 18% of total wastage. In a country where a lot of people fail to get a balanced diet on regular basis, it becomes an urgent issue to reduce any food losses possible so that the access of these could be expanded to the unprivileged population who are currently unable to afford it. So there is a need of a proper cold storage facility in transportation systems which in effect is cheap, works without much power sources and is easy to maintain. Our product design is in ideation stage wherein the circulation of air and consumption of water are being optimized to regulate the temperature inside the storage based on the values acquired by the experimentation on a small scale model of the product.
+    The problem of food wastage in India is pretty acute with around <strong>67 million tons</strong> being wasted annually due to poor food storage facilities at various stages of the supply chain. In India, most of the fruits and vegetables are transported in trucks lacking cold storage facilities owing to high costs and power requirements associated with reefer trucks. The food wasted due to this comprises around 18% of total wastage. In India, with a large population that fails to get a balanced diet, this problem becomes an urgent issue to reduce any food losses possible so that access to food increased to the unprivileged population who are currently unable to afford it. So there is a need for a proper cold storage facility in transportation systems that is cheap, works without or minimal power sources, and is easy to maintain. Our design is in the ideation stage wherein the circulation of air and consumption of water are being optimized to regulate the temperature inside the storage based on the values acquired by the experimentation on a small scale model of the product.
 
 
     `, `
@@ -1051,22 +1102,18 @@ const ProjectData = [
 
     `),
     new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('FireAxe: Crop harvest machine concept that dosen\'t leave stubble behind', 'assets/projects/fireaxe3.png', 'thumbnail-horizontal-fit', 'December 2017 - December 2018', 'ProDex', `
-    Every year in India 20 Million tonnes of paddy straw is burnt during the post-harvest period producing enormous quantities of C02, CO, Particulate Matter. The smoke from these burning farmlands is a major air pollutant in farming regions and cities surrounding them. For some facts: Every year **35 million tonnes** of paddy straw is burnt in Punjab and Haryana alone. Nearly 3 Kg of particulate matter and 1462 Kg of CO2 is produced by burning just 1 tonne of straw       The problem persists mainly due to the inability of the present combine harvesters to cut the crop right from the ground level. The farmers are forced to burn the residual length in order to clear the field due to absence of any cheaper alternative.
-
-    <br /><br />
-
-    The aim is to bring down the amount of paddy straw being burnt especially in north indian farms in order to reduce the air pollution in the affected areas. To design a modified combine harvester that not only allows the cutting of crop from ground level but also separate the stubble part in order to use them as raw materials in other industries, thus generating revenue for farmers from the waste.
+    Every year in India, 20 million tonnes of paddy straw is burned after the harvest. This produces enormous quantities of C0<sub>2</sub>, CO, particulate matter. The smoke from these burning farmlands is a major air pollutant in farming regions and cities surrounding them. For some facts: Every year **35 million tonnes** of paddy straw is burnt in Punjab and Haryana alone. Nearly 3 Kg of particulate matter and 1462 Kg of CO<sub>2</sub> is produced by burning just 1 tonne of stubble, this problem persists mainly due to the inability of the present combine harvesters to cut the crop right from the ground level. The farmers are compelled to burn the stubble on the field due to the absence of cheaper alternatives. The aim was to bring down the amount of paddy straw being burnt in north Indian farms to reduce the air pollution in the affected areas.
     `, `
-    This project is based on data from the experimental fields of IIT Kharagpur about the paddy crops. It was designed to cut crops around 5-10 cm from the  ground to prevent stubble burning.
+    This project is based on data from the experimental fields of IIT Kharagpur about the paddy crops. It was designed to cut crops around 5-10 cm from the ground to prevent stubble burning.
     `),
-    new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('Crazy Meteor', 'assets/projects/crazyMeteor.gif', 'thumbnail-horizontal-fit', 'March 2018 - April 2018', 'Self Initiative', `This is a fun game made on P5Js. This game can be used as a example to practice supervised or unsupervised machine learning. In this game the user controls the rocket and tries to survive as much longer as possible. `, `
+    new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('Crazy Meteor', 'assets/projects/crazyMeteor.gif', 'thumbnail-horizontal-fit', 'March 2018 - April 2018', 'Self Initiative', `This is a fun game made on P5Js. This game can be used as an example to practice supervised or unsupervised machine learning. In this game, the user controls the rocket and tries to survive as much longer as possible.`, `
     <b>Graphic Library</b>: P5Js
 
     <br />
 
     <b>Platform</b>: Any desktop browser`),
     new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["ProjectModel"]('Doodle Pad: A drawing board app for everyone', 'assets/projects/doodlepad.png', 'thumbnail-horizontal-fit', 'June 2020 - Present', 'Self Initiative', `
-    The pandemic COVID-19 changed our lives, from teaching and learning to our day to day social engagement. One of the major changes was use of tools used for teaching and their complexity and ability to create notes.  Explanation form an image became a norm and demand for annotations application increased. This is an cross platform handwritten note taking app which enable user to take notes smoothly and on the laptop itself and generate pdfs and documents to work with.
+    The pandemic COVID-19 changed our lives, from teaching and learning to our day to day social engagement. One of the major changes was tools used for teaching and their complexity and ability to create notes. Explanation from an image became a norm instead of board drew figures and demand for annotations application increased. This application is a cross-platform handwritten note-taking app that enables the user to take notes smoothly and on the computer and generate pdfs and documents to work with.
     `, `
     <b>Frameworks</b> : Anuglar2+, KonvaJS
     <br />
@@ -1075,19 +1122,14 @@ const ProjectData = [
 ];
 const smallProjectData = [
     new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["SmallProject"]('Medicure', 'assets/projects/bandage.png', '', `
-    A bandage that can be used in an car accident to prevent heavy bleeding and support fractures.
-    <br />
-    This product was designed for the Indian Nation Academy of Engineer: Youth Conclave - 2019 with
-    Sheet Kushal, Kushagra Ramnani, Abhishek, Soumya Yadav,
+    A bandage that can be used in a car accident to prevent heavy bleeding and support fractures. This product was designed for the Indian Nation Academy of Engineering: Youth Conclave - 2019.
     `),
     new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["SmallProject"]('Insight', 'assets/projects/insight.png', '', `
-    This product was desgined to measure blood haemoglobin, platelest and WBC count based on spectral data present of different compoenent.
+    This product was designed to measure blood hemoglobin, platelets, and WBC count based on spectral data present on different components.
     `),
-    new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["SmallProject"]('Short circuit proof power for Digital circuits', 'assets/projects/shortcircuit.jpg', '', `
-      Developed a short circuit proof power supply for digital circuit design.
+    new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["SmallProject"]('Short circuit protection of power supply', 'assets/projects/shortcircuit.jpg', '', `
     `),
-    new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["SmallProject"]('Digital Circuit Board', 'assets/projects/dctest.gif', '', `
-      Developed digital testing circuit board to test ideas on digital circuit design.
+    new _models_project_model__WEBPACK_IMPORTED_MODULE_0__["SmallProject"]('Digital circuit testing board', 'assets/projects/dctest.gif', '', `
     `),
 ];
 
@@ -1208,7 +1250,7 @@ BlogCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](4, BlogCardComponent_ng_template_4_Template, 3, 0, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](6, BlogCardComponent_ng_template_6_Template, 2, 0, "ng-template", null, 3, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "Latest Projects");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "Recent Projects");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](10, BlogCardComponent_div_10_Template, 1, 0, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, BlogCardComponent_ng_template_11_Template, 2, 0, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplateRefExtractor"]);
@@ -1282,7 +1324,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " On this website, you will find information about projects that I am working on and projects that I have worked on previously. Simultaneously I will be writing blogs through which I will share my experience and knowledge. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " I am continuously working on different projects that I will show on this website and all other projects that I have worked on previously. I also like to share my experience through blogs. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "hr", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p");
@@ -1340,7 +1382,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 67, vars: 12, consts: [[1, "col-lg-8", "mx-auto", "p-0", "text-white"], [1, "d-md-flex", "flex-md-row", "p-0", "m-0"], [1, "col-md-6", "pt-4"], [1, "pl-4", "list-unstyled", "text-white", "footer-redirects"], [1, ""], [1, "", 3, "routerLink", "routerLinkActive", "click"], [1, "d-block"], [1, "row", "pl-3"], [1, "col-4", "col-xl-2"], [1, "col-8", "col-xl-10"], [1, "list-inline"], [1, "icon", "list-inline-item"], ["href", "https://www.facebook.com/jaxmatrix"], ["src", "assets/icons/facebook.svg", "alt", ""], ["href", "https://www.instagram.com/jaxmatrix/"], ["src", "assets/icons/instagram.svg", "alt", ""], ["href", "https://twitter.com/Jaxmatrix2"], ["src", "assets/icons/twitter.svg", "alt", ""], ["href", "https://github.com/jaxmatrix"], ["src", "assets/icons/github.svg", "alt", ""], [1, "font-cabin-sketch", "p-1"], ["src", "assets/skill/icons/angular.svg", "alt", "", 2, "width", "20px"], ["href", "https://www.flaticon.com/authors/freepik", "title", "Freepik", 1, "text-info"], ["src", "assets/icons/freepik.svg", "alt", "", 2, "width", "20px"], [1, "fas", "fa-heart"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 70, vars: 12, consts: [[1, "col-lg-8", "mx-auto", "p-0", "text-white"], [1, "d-md-flex", "flex-md-row", "p-0", "m-0"], [1, "col-md-6", "pt-4"], [1, "pl-4", "list-unstyled", "text-white", "footer-redirects"], [1, ""], [1, "", 3, "routerLink", "routerLinkActive", "click"], [1, "d-block"], [1, "row", "pl-3"], [1, "col-4", "col-xl-2"], [1, "col-8", "col-xl-10"], [1, "pt-4"], [1, "list-inline"], [1, "icon", "list-inline-item"], ["href", "https://www.facebook.com/jaxmatrix"], ["src", "assets/icons/facebook.svg", "alt", ""], ["href", "https://www.instagram.com/jaxmatrix/"], ["src", "assets/icons/instagram.svg", "alt", ""], ["href", "https://twitter.com/Jaxmatrix2"], ["src", "assets/icons/twitter.svg", "alt", ""], ["href", "https://github.com/jaxmatrix"], ["src", "assets/icons/github.svg", "alt", ""], [1, "font-cabin-sketch", "pt-4", "pl-2"], ["href", "https://angular.io/"], ["src", "assets/skill/icons/angular.svg", "alt", "", 2, "width", "20px"], ["href", "https://www.flaticon.com/authors/freepik", "title", "Freepik", 1, "text-info"], ["src", "assets/icons/freepik.svg", "alt", "", 2, "width", "20px"], ["href", "https://getbootstrap.com/"], ["src", "assets/icons/bootstrap.svg", "alt", "", 2, "height", "20px"], [1, "fas", "fa-heart"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1412,47 +1454,51 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "div", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "strong");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Media Handles");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "ul", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "img", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "ul", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "img", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "img", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "li", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "img", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "img", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "li", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](53, "img", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "img", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "li", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "a", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "img", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " Made with ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "img", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "img", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, ", ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "a", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "img", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "a", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "img", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, " and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "i", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, ", ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "img", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, " and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](69, "i", 28);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1524,7 +1570,7 @@ LifeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
 /*!********************************************!*\
   !*** ./src/app/models/about-data-model.ts ***!
   \********************************************/
-/*! exports provided: AboutDataModel, ExperienceDataModel, SkillModel */
+/*! exports provided: AboutDataModel, ExperienceDataModel, SkillModel, WorkshopModel */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1532,6 +1578,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutDataModel", function() { return AboutDataModel; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExperienceDataModel", function() { return ExperienceDataModel; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SkillModel", function() { return SkillModel; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WorkshopModel", function() { return WorkshopModel; });
 class AboutDataModel {
     constructor(title, content) {
         this.title = title;
@@ -1561,6 +1608,12 @@ class SkillModel {
         this.skillName = skillName;
         this.skillStrength = skillStrength;
         this.skillIcon = skillIcon;
+    }
+}
+class WorkshopModel {
+    constructor(title, date) {
+        this.title = title;
+        this.date = date;
     }
 }
 
@@ -1843,7 +1896,7 @@ class ProjectsComponent {
     }
 }
 ProjectsComponent.ɵfac = function ProjectsComponent_Factory(t) { return new (t || ProjectsComponent)(); };
-ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 21, vars: 3, consts: [[1, "row", "m-0", "p-0"], [1, "col-lg-8", "mx-auto", "pt-4"], ["class", "row", 4, "ngFor", "ngForOf"], ["id", "spc", "data-ride", "carousel", 1, "carousel", "carousel-dark", "slide", "w-100"], [1, "carousel-indicators"], [3, "active", 4, "ngFor", "ngForOf"], [1, "carousel-inner"], ["class", "carousel-item", 3, "active", 4, "ngFor", "ngForOf"], ["href", "#spc", "role", "button", "data-slide", "prev", 1, "carousel-control-prev", "text-dark"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "sr-only"], ["href", "#spc", "role", "button", "data-slide", "next", 1, "carousel-control-next", "text-dark"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], [1, "row"], [1, "col-lg-4", "pr-4", "m-0", "d-flex", "flex-wrap", "align-items-center", 2, "overflow", "hidden", "background-color", "rgba(0,0,0,0)", "border-radius", "6px", "height", "300px"], ["alt", "", 1, "img_adjust", 3, "src"], [1, "col"], [1, "text-muted"], [1, "font-italic"], [3, "innerHTML"], [1, "carousel-item"], [1, "d-flex", "flex-row", "spc-image-container", 2, "background-color", "black", "overflow", "hidden"], [1, "flex-grow-1"], [1, "d-flex", "flex-column"], [1, "", 2, "width", "100%", 3, "src", "alt"], [1, "container"], [1, "carousel-caption", "text-left"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 21, vars: 3, consts: [[1, "row", "m-0", "p-0"], [1, "col-lg-8", "mx-auto", "pt-4"], ["class", "row", 4, "ngFor", "ngForOf"], ["id", "spc", "data-ride", "carousel", 1, "carousel", "carousel-dark", "slide", "w-100"], [1, "carousel-indicators"], [3, "active", 4, "ngFor", "ngForOf"], [1, "carousel-inner"], ["class", "carousel-item", 3, "active", 4, "ngFor", "ngForOf"], ["href", "#spc", "role", "button", "data-slide", "prev", 1, "carousel-control-prev", "text-dark"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "sr-only"], ["href", "#spc", "role", "button", "data-slide", "next", 1, "carousel-control-next", "text-dark"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], [1, "row"], [1, "col-lg-4", "pr-4", "m-0", "d-flex", "flex-wrap", "align-items-center", 2, "overflow", "hidden", "background-color", "rgba(0,0,0,0)", "border-radius", "6px", "height", "300px"], ["alt", "", 1, "img_adjust", 3, "src"], [1, "col"], [1, "text-muted"], [1, "font-italic"], [3, "innerHTML"], [1, "carousel-item"], [1, "d-flex", "flex-row", "spc-image-container", 2, "background-color", "darkgrey", "overflow", "hidden"], [1, "flex-grow-1"], [1, "d-flex", "flex-column"], [1, "", 2, "width", "100%", 3, "src", "alt"], [1, "container"], [1, "carousel-caption", "text-left"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, ProjectsComponent_div_2_Template, 16, 8, "div", 2);
